@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/Block"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="68dp"
+        android:hint="Block" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="606dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="537dp"
+        android:hint="phone" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="177dp"
+        android:backgroundTint="@color/colorwhite"
+        android:text="Register"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/Price"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginBottom="472dp"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/calender"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="401dp"
+        android:hint="Date of Register"/>
+    <!--
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="261dp"
+            android:layout_height="234dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="363dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="134dp" />-->
+
+
+</RelativeLayout>
