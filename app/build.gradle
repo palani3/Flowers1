@@ -34,9 +34,9 @@ dependencies {
 
 
     implementation "com.google.firebase:firebase-firestore:11.4.2"
-    implementation "com.firebaseui:firebase-ui-firestore:3.0.0"
-
-
+    //implementation "com.firebaseui:firebase-ui-firestore:3.0.0"
+    implementation "com.firebaseui:firebase-ui-firestore:4.0.0"
+    //updated firestore recycler adapter
 
 
     testImplementation 'junit:junit:4.12'

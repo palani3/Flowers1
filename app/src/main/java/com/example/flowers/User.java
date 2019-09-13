@@ -13,6 +13,11 @@ public class User {public String block, name,date;
 
     }
 */
+    public User()
+    {
+
+    }
+
     public User(String block, String name, String phone, String price,String date) {
         this.block = block;
         this.name = name;
